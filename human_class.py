@@ -4,5 +4,3 @@ class Human():
         self.l_name = l_name
         self.phone = phone
         self.email = email
-
-

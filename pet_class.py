@@ -1,6 +1,10 @@
 class Pet():
-    def __init__(self, vet_id, name,breed, owner):
+    def __init__(self, vet_id, name, breed, owner = ' '):
         self.vet_id = vet_id
         self.name = name
         self.breed = breed
         self.owner = owner
+
+    def owner_name(self):
+        self.owner
+
